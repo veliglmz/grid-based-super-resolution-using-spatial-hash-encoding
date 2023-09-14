@@ -1,0 +1,29 @@
+{
+  "dataset_path": "datasets/NTIRE22_BURSTSR_dataset_generation/our_dataset_for_ours",
+  "scale_factor": 4,
+  "n_imgs": 14,
+  "ours_interpolation": "bicubic",
+  "opencv_interpolation": "bicubic",
+  "result_dir": "results",
+
+  "n_epochs": 100,
+  "batch_size": 16,
+  "batch_size_granularity": 128,
+  "n_input_dims": 2,
+  "n_output_dims": 3,
+
+  "loss": "RelativeL2",
+  "optimizer": "Adam",
+  "learning_rate": 1e-2,
+
+  "n_levels": 16,
+  "n_features_per_level": 2,
+  "log2_hashmap_size": 24,
+  "base_resolution": 64,
+  "per_level_scale": 1.5,
+
+  "activation": "ReLU",
+  "n_neurons": 64,
+  "n_hidden_layers": 2,
+  "n_output": 3
+}
